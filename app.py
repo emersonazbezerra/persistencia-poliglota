@@ -8,7 +8,7 @@ import db_mongo
 import geoprocessamento
 
 st.set_page_config(
-    page_title="Turismo na Paraíba",
+    page_title="Explorador de Pontos Turísticos",
     layout="wide"
 )
 
@@ -55,7 +55,7 @@ with st.sidebar.form("form_local", clear_on_submit=True):
         else:
             st.sidebar.warning("Preencha todos os campos obrigatórios.")
 
-st.title("🗺️ Turismo na Paraíba")
+st.title("🗺️ Explorador de Pontos Turísticos")
 st.markdown("Projeto avaliativo da disciplina de Tendências em Ciência da Computação com o tema Persistência Poliglota.")
 st.markdown("Aluno: **Emerson de Azevedo Silva Bezerra**")
 st.markdown("RGM: **44968132**")
