@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import pydeck as pdk
 
 import db_sqlite
 import db_mongo
@@ -74,13 +75,39 @@ else:
     if locais_na_cidade:
         df_locais = pd.DataFrame(locais_na_cidade)
 
+        if '_id' in df_locais.columns:
+            df_locais = df_locais.drop(columns=['_id'])
+
         df_locais['latitude'] = df_locais['coordenadas'].apply(lambda c: c['latitude'])
         df_locais['longitude'] = df_locais['coordenadas'].apply(lambda c: c['longitude'])
 
         st.write(f"Exibindo {len(df_locais)} local(is) em **{nome_cidade_selecionada}**.")
         st.dataframe(df_locais[['nome_local', 'descricao']])
 
-        st.map(df_locais, latitude='latitude', longitude='longitude')
+        if not df_locais.empty:
+            midpoint = (
+                df_locais['latitude'].mean(),
+                df_locais['longitude'].mean()
+            )
+            scatter_layer = pdk.Layer(
+                "ScatterplotLayer",
+                data=df_locais,
+                get_position='[longitude, latitude]',
+                get_color='[200, 30, 0, 160]',
+                get_radius=100,
+                pickable=True,
+            )
+            view_state = pdk.ViewState(
+                latitude=midpoint[0],
+                longitude=midpoint[1],
+                zoom=10,
+                pitch=0,
+            )
+            st.pydeck_chart(pdk.Deck(
+                layers=[scatter_layer],
+                initial_view_state=view_state,
+                tooltip={"text": "{nome_local}\n{descricao}"}
+            ))
     else:
         st.info(f"Nenhum local de interesse cadastrado para a cidade de {nome_cidade_selecionada}.")
 
