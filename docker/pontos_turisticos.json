@@ -1,0 +1,344 @@
+[
+  {
+    "nome_local": "Praia de Tambaba",
+    "cidade": "Conde",
+    "coordenadas": {
+      "latitude": -7.33083,
+      "longitude": -34.795
+    },
+    "descricao": "Praia de nudismo famosa, dividida em duas partes: a naturista e a mista."
+  },
+  {
+    "nome_local": "Praia do Coqueirinho",
+    "cidade": "Conde",
+    "coordenadas": {
+      "latitude": -7.34861,
+      "longitude": -34.8025
+    },
+    "descricao": "Praia com falésias coloridas e coqueirais. Ideal para banho e caminhada."
+  },
+  {
+    "nome_local": "Praia Bela",
+    "cidade": "Pitimbu",
+    "coordenadas": {
+      "latitude": -7.4725,
+      "longitude": -34.845
+    },
+    "descricao": "Praia com encontro do rio e do mar, formando piscinas naturais na maré baixa."
+  },
+  {
+    "nome_local": "Farol do Cabo Branco",
+    "cidade": "João Pessoa",
+    "coordenadas": {
+      "latitude": -7.15175,
+      "longitude": -34.8038
+    },
+    "descricao": "Farol em forma triangular que marca o ponto mais oriental das Américas."
+  },
+  {
+    "nome_local": "Centro Histórico de João Pessoa",
+    "cidade": "João Pessoa",
+    "coordenadas": {
+      "latitude": -7.11472,
+      "longitude": -34.8805
+    },
+    "descricao": "Conjunto arquitetônico com igrejas barrocas, casarões e praças, como a Igreja de São Francisco e o Centro Cultural São Francisco."
+  },
+  {
+    "nome_local": "Praça da Independência",
+    "cidade": "João Pessoa",
+    "coordenadas": {
+      "latitude": -7.11532,
+      "longitude": -34.861
+    },
+    "descricao": "Praça central da cidade com projeto paisagístico e monumentos."
+  },
+  {
+    "nome_local": "Praia de Cabo Branco",
+    "cidade": "João Pessoa",
+    "coordenadas": {
+      "latitude": -7.14361,
+      "longitude": -34.8111
+    },
+    "descricao": "Praia urbana com calçadão, ciclovia e barracas de praia. Ideal para caminhadas."
+  },
+  {
+    "nome_local": "Praia do Jacaré",
+    "cidade": "Cabedelo",
+    "coordenadas": {
+      "latitude": -7.03944,
+      "longitude": -34.8392
+    },
+    "descricao": "Local famoso pelo pôr do sol, acompanhado pelo som do Bolero de Ravel tocado por Jurandy do Sax."
+  },
+  {
+    "nome_local": "Praia de Intermares",
+    "cidade": "Cabedelo",
+    "coordenadas": {
+      "latitude": -7.01778,
+      "longitude": -34.835
+    },
+    "descricao": "Praia com ondas fortes, frequentada por surfistas, e também conhecida pela desova de tartarugas marinhas."
+  },
+  {
+    "nome_local": "Parque da Lagoa Solon de Lucena",
+    "cidade": "João Pessoa",
+    "coordenadas": {
+      "latitude": -7.12056,
+      "longitude": -34.8833
+    },
+    "descricao": "Principal cartão postal do centro de João Pessoa, com uma lagoa e área de lazer."
+  },
+  {
+    "nome_local": "Praia de Areia Vermelha",
+    "cidade": "Cabedelo",
+    "coordenadas": {
+      "latitude": -6.99611,
+      "longitude": -34.8217
+    },
+    "descricao": "Ilha de areia que aparece na maré baixa, formando piscinas naturais."
+  },
+  {
+    "nome_local": "Praia do Bessa",
+    "cidade": "João Pessoa",
+    "coordenadas": {
+      "latitude": -7.07806,
+      "longitude": -34.8286
+    },
+    "descricao": "Praia tranquila e de águas calmas, ideal para famílias e esportes aquáticos."
+  },
+  {
+    "nome_local": "Praia de Camboinhas",
+    "cidade": "Cabedelo",
+    "coordenadas": {
+      "latitude": -6.9792,
+      "longitude": -34.8268
+    },
+    "descricao": "Praia com águas mornas e calmas, ótima para banho, esportes náuticos e pesca."
+  },
+  {
+    "nome_local": "Praia de Manaíra",
+    "cidade": "João Pessoa",
+    "coordenadas": {
+      "latitude": -7.10667,
+      "longitude": -34.825
+    },
+    "descricao": "Praia urbana com vida noturna agitada, bares, restaurantes e feirinha de artesanato."
+  },
+  {
+    "nome_local": "Parque Estadual da Pedra da Boca",
+    "cidade": "Araruna",
+    "coordenadas": {
+      "latitude": -6.52806,
+      "longitude": -35.74056
+    },
+    "descricao": "Parque com formações rochosas imponentes, como a 'Pedra da Boca', ideal para ecoturismo, escalada e trilhas."
+  },
+  {
+    "nome_local": "Museu da Rapadura",
+    "cidade": "Bananeiras",
+    "coordenadas": {
+      "latitude": -6.75739,
+      "longitude": -35.62689
+    },
+    "descricao": "Museu dedicado à história e produção da rapadura, produto típico da região, com exposição de equipamentos antigos."
+  },
+  {
+    "nome_local": "Engenho da Cachaça Rainha",
+    "cidade": "Bananeiras",
+    "coordenadas": {
+      "latitude": -6.74618,
+      "longitude": -35.62489
+    },
+    "descricao": "Famoso engenho de cachaça, onde é possível conhecer o processo de produção e degustar diferentes tipos de cachaça e licores."
+  },
+  {
+    "nome_local": "Theatro Minerva",
+    "cidade": "Areia",
+    "coordenadas": {
+      "latitude": -6.9696,
+      "longitude": -35.6961
+    },
+    "descricao": "Teatro histórico, o primeiro da Paraíba e um dos mais antigos do Brasil, construído no século XIX."
+  },
+  {
+    "nome_local": "Engenho Vaca Brava",
+    "cidade": "Areia",
+    "coordenadas": {
+      "latitude": -6.97306,
+      "longitude": -35.67083
+    },
+    "descricao": "Engenho colonial com uma arquitetura preservada e cachoeira que oferece uma experiência de imersão na história e na natureza."
+  },
+  {
+    "nome_local": "Museu Casa de Pedro Américo",
+    "cidade": "Areia",
+    "coordenadas": {
+      "latitude": -6.9687,
+      "longitude": -35.70455
+    },
+    "descricao": "Casa natal do famoso pintor paraibano Pedro Américo, transformada em museu, que exibe móveis e objetos da época."
+  },
+  {
+    "nome_local": "Engenho Triunfo",
+    "cidade": "Areia",
+    "coordenadas": {
+      "latitude": -6.93889,
+      "longitude": -35.72778
+    },
+    "descricao": "Um dos mais conhecidos engenhos de cachaça do Brejo, com produção artesanal e visitação guiada, além de paisagens exuberantes."
+  },
+  {
+    "nome_local": "Parque do Povo",
+    "cidade": "Campina Grande",
+    "coordenadas": {
+      "latitude": -7.22806,
+      "longitude": -35.8825
+    },
+    "descricao": "Principal palco do 'Maior São João do Mundo', é um espaço amplo que abriga shows e festividades juninas."
+  },
+  {
+    "nome_local": "Vila Sítio São João",
+    "cidade": "Campina Grande",
+    "coordenadas": {
+      "latitude": -7.21852,
+      "longitude": -35.87441
+    },
+    "descricao": "Uma vila cenográfica que recria o ambiente do interior nordestino, com casas de taipa, museu e culinária típica, especialmente durante as festas juninas."
+  },
+  {
+    "nome_local": "Museu de Arte Assis Chateaubriand (MAAC)",
+    "cidade": "Campina Grande",
+    "coordenadas": {
+      "latitude": -7.23467,
+      "longitude": -35.89531
+    },
+    "descricao": "Museu com um acervo de mais de 500 obras, incluindo pinturas, esculturas e gravuras de artistas brasileiros e paraibanos."
+  },
+  {
+    "nome_local": "Açude Velho",
+    "cidade": "Campina Grande",
+    "coordenadas": {
+      "latitude": -7.23306,
+      "longitude": -35.88861
+    },
+    "descricao": "Um dos principais cartões-postais da cidade, com uma extensa pista de caminhada e a escultura de 'Os Pioneiros'."
+  },
+  {
+    "nome_local": "Parque da Criança",
+    "cidade": "Campina Grande",
+    "coordenadas": {
+      "latitude": -7.22444,
+      "longitude": -35.88583
+    },
+    "descricao": "Área de lazer com quadras poliesportivas, parque infantil, fontes e espaços para atividades ao ar livre."
+  },
+  {
+    "nome_local": "Serra da Bodopitá",
+    "cidade": "Queimadas",
+    "coordenadas": {
+      "latitude": -7.36944,
+      "longitude": -35.98667
+    },
+    "descricao": "Área de beleza natural com trilhas e paisagens serranas, ideal para ecoturismo."
+  },
+  {
+    "nome_local": "Mirante do Cruzeiro",
+    "cidade": "Puxinanã",
+    "coordenadas": {
+      "latitude": -7.15833,
+      "longitude": -35.975
+    },
+    "descricao": "Local com uma vista panorâmica da cidade e da região, com um cruzeiro no topo da serra."
+  },
+  {
+    "nome_local": "Vale dos Dinossauros",
+    "cidade": "Sousa",
+    "coordenadas": {
+      "latitude": -6.11056,
+      "longitude": -38.2575
+    },
+    "descricao": "Parque com trilhas que levam a pegadas de dinossauros fossilizadas, sendo a maior concentração de pegadas do mundo."
+  },
+  {
+    "nome_local": "Cachoeira de São Bento",
+    "cidade": "São Bento",
+    "coordenadas": {
+      "latitude": -6.495,
+      "longitude": -37.49889
+    },
+    "descricao": "Conjunto de quedas d'água no rio Piranhas, com paisagens bonitas e trilhas para quem busca contato com a natureza."
+  },
+  {
+    "nome_local": "Serra do Talhado",
+    "cidade": "Santa Inês",
+    "coordenadas": {
+      "latitude": -6.6575,
+      "longitude": -37.8925
+    },
+    "descricao": "Formação rochosa com visuais deslumbrantes do sertão, ideal para contemplação e trilhas."
+  },
+  {
+    "nome_local": "Serra do Teixeira",
+    "cidade": "Teixeira",
+    "coordenadas": {
+      "latitude": -7.21889,
+      "longitude": -37.26611
+    },
+    "descricao": "Ponto mais alto do estado, com paisagens montanhosas, trilhas e clima ameno."
+  },
+  {
+    "nome_local": "Lajedo de Pai Mateus",
+    "cidade": "Cabaceiras",
+    "coordenadas": {
+      "latitude": -7.49306,
+      "longitude": -36.29444
+    },
+    "descricao": "Formação rochosa impressionante, com grandes pedras arredondadas de granito. Cenário de filmes e novelas."
+  },
+  {
+    "nome_local": "Fazenda do Zé Duda",
+    "cidade": "Cabaceiras",
+    "coordenadas": {
+      "latitude": -7.48556,
+      "longitude": -36.29139
+    },
+    "descricao": "Local conhecido por ter servido de cenário para o filme 'O Auto da Compadecida', com a casa do 'Zé Duda' preservada e outras construções."
+  },
+  {
+    "nome_local": "Praia de Baía da Traição",
+    "cidade": "Baía da Traição",
+    "coordenadas": {
+      "latitude": -6.68528,
+      "longitude": -34.92278
+    },
+    "descricao": "Praia com falésias coloridas e águas mornas. Faz parte da reserva indígena dos Potiguara e é um local com forte cultura nativa."
+  },
+  {
+    "nome_local": "Praia de Lucena",
+    "cidade": "Lucena",
+    "coordenadas": {
+      "latitude": -6.95306,
+      "longitude": -34.88722
+    },
+    "descricao": "Praia tranquila com coqueirais e dunas, ideal para banho e descanso. É acessível por balsa a partir de Cabedelo."
+  },
+  {
+    "nome_local": "Centro Histórico de Mamanguape",
+    "cidade": "Mamanguape",
+    "coordenadas": {
+      "latitude": -6.82889,
+      "longitude": -35.12722
+    },
+    "descricao": "Conjunto de casarões coloniais e igrejas, como a Igreja Matriz de São Pedro e São Paulo, que preservam a arquitetura e a história da região."
+  },
+  {
+    "nome_local": "Praia de Acaú",
+    "cidade": "Pitimbu",
+    "coordenadas": {
+      "latitude": -7.42694,
+      "longitude": -34.825
+    },
+    "descricao": "Praia com águas calmas e vasta faixa de areia, com opções de passeios de barco para a ilha de Areia Vermelha."
+  }
+]

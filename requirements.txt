@@ -1,0 +1,8 @@
+pydeck
+dotenv
+streamlit
+pymongo
+geopy
+pandas
+folium
+streamlit-folium
