@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pydeck as pdk
+import streamlit.components.v1 as components
 
 import db_sqlite
 import db_mongo
@@ -111,13 +112,37 @@ else:
     else:
         st.info(f"Nenhum local de interesse cadastrado para a cidade de {nome_cidade_selecionada}.")
 
+query_params = st.query_params
+default_lat = float(query_params.get("lat", [-7.1195])[0])
+default_lon = float(query_params.get("lon", [-34.8454])[0])
+
+components.html(
+    """
+    <script>
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function(pos) {
+            const lat = pos.coords.latitude;
+            const lon = pos.coords.longitude;
+            const params = new URLSearchParams(window.location.search);
+            if (!params.has("lat") || !params.has("lon")) {
+                params.set("lat", lat);
+                params.set("lon", lon);
+                window.location.search = params.toString();
+            }
+        });
+    }
+    </script>
+    """,
+    height=0,
+)
+
 st.header("Busca de Locais por Proximidade")
 
 col1, col2, col3 = st.columns(3)
 with col1:
-    lat_central = st.number_input("Sua Latitude", format="%.6f", value=-7.1195)
+    lat_central = st.number_input("Sua Latitude", format="%.6f", value=default_lat)
 with col2:
-    lon_central = st.number_input("Sua Longitude", format="%.6f", value=-34.8454)
+    lon_central = st.number_input("Sua Longitude", format="%.6f", value=default_lon)
 with col3:
     raio_km = st.slider("Raio em KM", min_value=1, max_value=100, value=10)
 
@@ -126,7 +151,7 @@ todos_os_locais = db_mongo.listar_todos_os_locais()
 
 if st.button(f"Buscar locais em um raio de {raio_km} km"):
     if not todos_os_locais:
-        st.warning("Não há locais cadastrados no MongoDB para realizar a busca.")
+        st.warning("Não há locais cadastrados no para realizar a busca.")
     else:
         locais_proximos = geoprocessamento.listar_locais_proximos(ponto_central, todos_os_locais, raio_km)
 
